@@ -1,0 +1,158 @@
+/* Quiz container */
+.card-container {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: white;
+    border: 2px solid #c8ede6;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Profile section */
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatar img {
+
+    object-fit: cover;
+}
+
+.username {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.score {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Question section */
+.question-section {
+    margin-bottom: 2rem;
+}
+
+.question-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.segment-container {
+    height: 2rem;
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.segment {
+    flex: 1;
+    border: 1px solid #d1d5db;
+    background-color: white;
+}
+
+.segment-completed {
+    background-color: #bfdbfe;
+}
+
+/* Timer section */
+.timer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.clock-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.time-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 3.5rem;
+    border: 2px solid #d1d5db;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Progress bar */
+.progress-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.progress-bar-behind {
+    width: 100%;
+    height: 2rem;
+    background-color: #e5e7eb;
+    margin-bottom: 1rem;
+    border: 2px solid #9ca3af;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #9ca3af;
+}
+
+.time-remaining {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.suggestion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.75rem;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 0.125rem solid #9ca3af;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
