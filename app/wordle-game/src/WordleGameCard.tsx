@@ -12,7 +12,7 @@ export default function WordleGameCard({ user, find_word }: WordleGameCardProps)
     const [currentQuestion] = useState({
         text: find_word.definition,
         nb_lettre: find_word.chaine.length,
-        completedSegments: 0,
+        completedSegments: 1,
     })
 
     const [suggIsActive, setSuggIsActive] = useState(false)

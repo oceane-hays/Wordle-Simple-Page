@@ -77,12 +77,13 @@
 
 .segment {
     flex: 1;
+    padding: 0.3rem;
     border: 1px solid #d1d5db;
     background-color: white;
 }
 
 .segment-completed {
-    background-color: #bfdbfe;
+    background-color: #95bcf2;
 }
 
 /* Timer section */
