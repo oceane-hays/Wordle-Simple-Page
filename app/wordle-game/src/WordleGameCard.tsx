@@ -44,7 +44,7 @@ export default function WordleGameCard({ user, find_word }: WordleGameCardProps)
               <div className="profile">
                   <div className="user-profile">
                       <div className="avatar">
-                          <img width="100" height="100" src={userIcon} alt="user"/>
+                          <img width={100} height={100} src={userIcon} alt="user"/>
                       </div>
                       <span className="username">alligator</span>
                   </div>
